@@ -2,6 +2,7 @@ function [ bbs ] = bbRead( fName )
 %BBREAD Summary of this function goes here
 %   Detailed explanation goes here
 %   This function to read bounding box of UCF Sports format
+%   The format of bounding box is [x y width height].
 %   Copy right: Tran Lam An
 fId=fopen(fName);
 if(fId==-1), error(['unable to open file: ' fName]); end;

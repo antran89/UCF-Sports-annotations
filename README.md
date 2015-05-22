@@ -6,3 +6,5 @@ This repository provides "human" bounding box annotations for all actions of UCF
 The provided annotations in the original dataset are not complete. We want to contribute a complete human bounding box annotations for this dataset. Hope that it is useful for community.
 
 We also provide a really simple function to read this kind of bounding box.
+
+The format of bounding box is [x y width height].
